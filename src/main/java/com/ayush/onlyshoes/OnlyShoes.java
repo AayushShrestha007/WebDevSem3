@@ -1,13 +1,13 @@
-package com.ayush.major;
+package com.ayush.onlyshoes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MajorApplication {
+public class OnlyShoes {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MajorApplication.class, args);
+		SpringApplication.run(OnlyShoes.class, args);
 	}
 
 }

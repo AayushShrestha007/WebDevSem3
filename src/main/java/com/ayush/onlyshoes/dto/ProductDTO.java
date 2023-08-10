@@ -1,4 +1,4 @@
-package com.ayush.major.dto;
+package com.ayush.onlyshoes.dto;
 
 import lombok.Data;
 

@@ -1,8 +1,8 @@
-package com.ayush.major.service;
+package com.ayush.onlyshoes.service;
 
 
-import com.ayush.major.model.Category;
-import com.ayush.major.repository.CategoryRepository;
+import com.ayush.onlyshoes.model.Category;
+import com.ayush.onlyshoes.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

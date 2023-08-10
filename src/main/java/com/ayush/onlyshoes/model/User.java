@@ -1,7 +1,7 @@
-package com.ayush.major.model;
+package com.ayush.onlyshoes.model;
 
 
-import lombok.Data;
+import lombok.*;
 
 import javax.persistence.*;
 import javax.validation.constraints.Email;
@@ -9,6 +9,10 @@ import javax.validation.constraints.NotEmpty;
 import java.util.List;
 
 @Entity
+@Builder
+@Getter
+@AllArgsConstructor
+@Setter
 @Data
 @Table(name= "users")
 public class User {
@@ -26,7 +30,7 @@ public class User {
     @NotEmpty
     @Email(message = "{errors.invalid_email}")
     private String email;
-    @NotEmpty
+
     private String password;
 
     @ManyToMany(cascade = CascadeType.MERGE, fetch = FetchType.EAGER)

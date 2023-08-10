@@ -1,11 +1,11 @@
-package com.ayush.major.controller;
+package com.ayush.onlyshoes.controller;
 
 
-import com.ayush.major.dto.ProductDTO;
-import com.ayush.major.model.Category;
-import com.ayush.major.model.Product;
-import com.ayush.major.service.CategoryService;
-import com.ayush.major.service.ProductService;
+import com.ayush.onlyshoes.dto.ProductDTO;
+import com.ayush.onlyshoes.model.Category;
+import com.ayush.onlyshoes.model.Product;
+import com.ayush.onlyshoes.service.CategoryService;
+import com.ayush.onlyshoes.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

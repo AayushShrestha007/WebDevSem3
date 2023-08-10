@@ -1,4 +1,4 @@
-package com.ayush.major.model;
+package com.ayush.onlyshoes.model;
 
 import lombok.Data;
 

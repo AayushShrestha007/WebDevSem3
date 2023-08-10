@@ -1,6 +1,6 @@
-package com.ayush.major.repository;
+package com.ayush.onlyshoes.repository;
 
-import com.ayush.major.model.Product;
+import com.ayush.onlyshoes.model.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
